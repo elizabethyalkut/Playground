@@ -1,0 +1,38 @@
+PSD in Travis' Dropbox.
+
+Component list
+1.	Banner
+	a.	Main nav
+	b.	Secondary nav
+	c.	Search
+2.	Main
+	a.	Lede
+		i.	Title
+		ii.	Feature carousel
+			1.	Media objects
+	b.	Download ribbon
+	c.	In Issue
+		i.	Media objects
+	d.	Articles (?) widget
+		i.	Tab list
+		ii.	Tab panels
+	e.	Perspectives carousel
+	f.	Engagement boxes
+		i.	Subscribe form
+		ii.	Ipad download
+	g.	Social buttons
+	h.	Letters
+	i.	Online extras carousel
+3.	Footer
+	a.	Tertiary nav
+
+Build order
+1.	Banner and footer
+2.	Lede
+3.	In issue
+4.	Engagement boxes
+5.	Perspectives carousel
+6.	Letters
+7.	Online extras carousel
+8.	Articles widget
+9.	Social Buttons and download ribbon
