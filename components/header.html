@@ -1,35 +1,36 @@
 <div class="header" role="banner">
-	HHMI
-	<nav class="visually-hidden skip-links" role="navigation">
-		<ul>
-			<li><a href="#">Skip to main nav</a></li>
-			<li><a href="#">Skip to secondary nav</a></li>
-			<li><a href="#">Skip to search</a></li>
+	<div class="primary">
+		<div class="logo"><a href="/"><img src="../images/logo.png" alt="HHMI" /></a></div>
+		<ul class="visuallyhidden skip-links" role="navigation">
+			<li><a href="#mainnav">Skip to main nav</a></li>
+			<li><a href="#search">Skip to search</a></li>
+			<li><a href="#secondarynav">Skip to secondary nav</a></li>
 			<li><a href="#">Skip to main</a></li>
-			<li><a href="#">Skip to footer</a></li>
-		</ul>
-	</nav><!-- end skip links -->
-	<nav class="primary-nav" role="navigation">
-		<ul>
+			<li><a href="#footer">Skip to footer</a></li>
+		</ul><!-- end skip links -->
+		<ul id="mainnav" tabindex="-1" class="primary-nav" role="navigation">
 			<li><a href="#">How We Advance Science</a></li>
 			<li><a href="#">Our Science</a></li>
 			<li><a href="#">Programs and Opportunities</a></li>
 			<li><a href="#">Educational Materials</a></li>
-		</ul>
-	</nav><!-- end primary nav -->
-	<nav class="secondary-nav" role="navigation">
-		<ul>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Newsroom</a></li>
-			<li><a href="#">My Account</a></li>
-			<li><a href="#">Shopping Cart</a></li>
-		</ul>
-	</nav><!-- end secondary nav -->
-	<div class="search-form" role="search" id="search-form">
-		<form action="#" method="get">
-			<label for="search-form-entry" class="visuallyhidden">Search</label>
-			<input type="search" placeholder="Search" name="search-form-entry" id="search-form-entry" />
-			<button class="ir" type="submit">Submit Search</button>
-		</form>
-	</div><!-- end search -->
-</div>
+		</ul><!-- end primary nav -->
+	</div><!--end primary banner -->
+	
+	<div class="secondary">
+		<div id="search" tabindex="-1" class="search-form" role="search" id="search-form">
+			<form action="#" method="get">
+				<label for="search-form-entry" class="visuallyhidden">Search</label>
+				<input type="search" placeholder="Search..." name="search-form-entry" id="search-form-entry" />
+				<button class="ir" type="submit">Submit Search</button>
+			</form>
+		</div><!-- end search -->
+		<div id="secondarynav" tabindex="-1" class="secondary-nav" role="navigation">
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Newsroom</a></li>
+				<li><a href="#">My Account</a></li>
+				<li><a href="#">Shopping Cart</a></li>
+			</ul>
+		</div><!-- end secondary nav -->
+	</div><!--end secondary banner-->
+</div><!--end banner -->
