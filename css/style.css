@@ -21,9 +21,12 @@
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
 
-/* Image replacement */
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
-
+/* Image replacement, from http://nicolasgallagher.com/another-css-image-replacement-technique/ */
+.ir {
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
 /* General body styles */
 body {
 	margin: 0;
@@ -165,6 +168,7 @@ input:-moz-placeholder {
 	position: absolute;
 	right: 0;
 	top: 1px;
+	width: 30px;
 }
 .header .secondary-nav {
 	float: right;
