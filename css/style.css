@@ -15,14 +15,14 @@
     zoom:1;
 }
 
-/* Image replacement */
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
-
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Image replacement */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
 
 /* General body styles */
 body {
@@ -54,6 +54,34 @@ input::-webkit-input-placeholder {
 }
 input:-moz-placeholder {
     font-style: italic;
+}
+
+/* Skip link */
+.skip-links {
+	height:1px;
+	left:-1000px;
+	overflow:hidden;
+	position:absolute;
+	text-align:left;
+	top:-1000px;
+	width:1px;
+}
+
+.skip-links:active,
+.skip-links:focus,
+.skip-links:hover {
+	background-color:#093;
+	color:#fff;
+	font-size:1.6em;
+	font-weight:bold;
+	height:auto;
+	left:0;
+	overflow:auto;
+	padding:5px;
+	text-align: center;
+	top:0;
+	width:99%;
+	z-index:100;
 }
 
 
