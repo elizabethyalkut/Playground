@@ -1,0 +1,42 @@
+/* IN-ISSUE */
+
+.in-issue {
+	width: 67.7083333%;
+}
+.in-issue h2 {
+	font-size: 2.3em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.in-issue h3 {
+	font-family: "AvenirLTStd Medium", "Myriad Pro";
+	line-height: 1;
+	margin: 0;
+}
+.in-issue h3 a {
+	color: #00336b;
+	font-size: 2.1em;
+	font-weight: normal;
+}
+.in-issue ul {
+	padding-left: 0;
+}
+.in-issue li {
+	float: left;
+	margin-bottom: 30px;
+	margin-right: 30px;
+}
+.in-issue li:nth-child(odd) {
+	clear: left;
+}
+.in-issue .img img {
+	border: solid 3px #e6eaee;
+}
+.in-issue .content {
+	width: 185px;
+}
+.in-issue .content p {
+	font-size: 1.4em;
+	margin: 0;
+	padding-top: 5px;
+}
