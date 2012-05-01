@@ -1,0 +1,55 @@
+/* FOOTER */
+
+.footer {
+	background: #f6f6f6;
+	position: relative;
+}
+.footer .primary {
+	padding: 110px 0 70px;
+}
+.footer a {
+	color: #2f2d2d;
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 25px;
+}
+.footer .logo,
+.footer .footer-nav,
+.footer .tagline {
+	float: left;
+}
+.footer .logo {
+	margin-left: 275px;
+	width: 180px;
+	z-index: 10;
+}
+.footer-nav {
+	background: url("../images/footer-nav-shadow.png") left top no-repeat, url("../images/footer-nav-shadow.png") right top no-repeat;
+	margin: 0 40px 0 50px;
+	width: 140px;
+}
+.footer .tagline {
+	color: #2f2d2d;
+	font-size: 20px;
+	font-style: italic;
+	width: 215px;
+}
+.footer .secondary {
+	background: #313132;
+}
+.footer .secondary .inner {
+	border-top: solid 6px #309A4E;
+}
+.footer .legal {
+	color: #309A4E;
+	font-size: 1.1em;
+	margin: 0;
+	padding: 25px 0;
+	text-align: right;
+}
+.footer .flourish {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	display: block;
+}

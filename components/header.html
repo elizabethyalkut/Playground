@@ -1,36 +1,63 @@
-<div class="header" role="banner">
-	<div class="primary">
-		<div class="logo"><a href="/"><img src="../images/logo.png" alt="HHMI" /></a></div>
-		<ul class="visuallyhidden skip-links" role="navigation">
-			<li><a href="#mainnav">Skip to main nav</a></li>
-			<li><a href="#search">Skip to search</a></li>
-			<li><a href="#secondarynav">Skip to secondary nav</a></li>
-			<li><a href="#">Skip to main</a></li>
-			<li><a href="#footer">Skip to footer</a></li>
-		</ul><!-- end skip links -->
-		<ul id="mainnav" tabindex="-1" class="primary-nav" role="navigation">
-			<li><a href="#">How We Advance Science</a></li>
-			<li><a href="#">Our Science</a></li>
-			<li><a href="#">Programs and Opportunities</a></li>
-			<li><a href="#">Educational Materials</a></li>
-		</ul><!-- end primary nav -->
-	</div><!--end primary banner -->
-	
-	<div class="secondary">
-		<div id="search" tabindex="-1" class="search-form" role="search" id="search-form">
-			<form action="#" method="get">
-				<label for="search-form-entry" class="visuallyhidden">Search</label>
-				<input type="search" placeholder="Search..." name="search-form-entry" id="search-form-entry" />
-				<button class="ir" type="submit">Submit Search</button>
-			</form>
-		</div><!-- end search -->
-		<div id="secondarynav" tabindex="-1" class="secondary-nav" role="navigation">
-			<ul>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Newsroom</a></li>
-				<li><a href="#">My Account</a></li>
-				<li><a href="#">Shopping Cart</a></li>
-			</ul>
-		</div><!-- end secondary nav -->
-	</div><!--end secondary banner-->
-</div><!--end banner -->
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html lang="en" class="ie6"><![endif]-->
+<!--[if IE 7 ]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>header | HHMI</title>
+<link rel="stylesheet" href="../css/base.css" type="text/css">
+<link rel="stylesheet" href="../css/header.css" type="text/css">
+</head>
+<body>
+	<div class="header" role="banner">
+		<div class="primary cf">
+			<div class="inner">
+				<div class="logo"><a href="/"><img src="../images/logo.png" alt="HHMI"></a></div>
+				<div role="navigation">
+					<a href="#mainnav" class="skip-links" >Skip to main nav</a>
+					<a href="#search" class="skip-links" >Skip to search</a>
+					<a href="#secondarynav" class="skip-links" >Skip to secondary nav</a>
+					<a href="#main" class="skip-links">Skip to main</a>
+					<a href="#footer" class="skip-links">Skip to footer</a>
+				</div>
+				<!-- end skip links -->
+				<ul id="mainnav" tabindex="-1" class="primary-nav" role="navigation">
+					<li><a href="#">How We Advance Science</a></li>
+					<li><a href="#">Our Science</a></li>
+					<li><a href="#">Programs and Opportunities</a></li>
+					<li><a href="#">Educational Materials</a></li>
+				</ul>
+				<!-- end primary nav -->
+			</div>
+			<!--end inner -->
+		</div>
+		<!--end primary banner -->
+		<div class="secondary cf">
+			<div class="inner">
+				<div id="search" tabindex="-1" class="search-form" role="search">
+					<form action="#" method="get">
+						<label for="search-form-entry" class="visuallyhidden">Search</label>
+						<input type="search" placeholder="Search..." name="search-form-entry" id="search-form-entry" >
+						<button class="ir" type="submit">Submit Search</button>
+					</form>
+				</div>
+				<!-- end search -->
+				<div id="secondarynav" tabindex="-1" class="secondary-nav" role="navigation">
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Newsroom</a></li>
+						<li><a href="#">My Account</a></li>
+						<li><a href="#">Shopping Cart</a></li>
+					</ul>
+				</div>
+				<!-- end secondary nav -->
+			</div>
+			<!--end inner -->
+		</div>
+		<!--end secondary banner-->
+	</div>
+	<!--end header -->
+</body>
+</html>

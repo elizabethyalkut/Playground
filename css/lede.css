@@ -1,0 +1,92 @@
+
+
+/* LEDE */
+
+.lede {
+	position: relative;
+}
+.masthead h1 {
+	background: url("../images/bulletin-bg.png") no-repeat;
+	height:76px;
+	width: 582px;
+}
+.masthead p {
+	display: inline;
+}
+.masthead .volume,
+.masthead .subhead {
+	font-style: italic;
+}
+.masthead .publication-info {
+	font-size: 1.463em;
+}
+.masthead .subhead {
+	font-size: 2em;
+	padding-left: 15px;
+}
+.lede .browse li,
+.lede .features li {
+	float: left;
+}
+.lede .browse {
+	font-size: 1.3em;
+	margin: 0;
+	padding-left: 0;
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+.lede .browse li {
+    -webkit-box-shadow:  2px 3px 3px 0px rgba(1, 1, 1, .05);
+    box-shadow:  2px 3px 3px 0px rgba(1, 1, 1, .05);
+	background: #fff url("../images/browse-bg.png") repeat;
+	margin-left: 9px;
+	padding: 12px;
+	padding-left: 19px;
+}
+.lede .browse a {
+	color: #333;
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 45px;
+}
+.lede .browse a:hover {
+	color: #e16e0c;
+}
+.lede .browse a.toc {
+	background-image: url("../images/toc-bg.png");
+}
+.lede .browse a.pdf {
+	background-image: url("../images/pdf-bg.png");
+}
+.lede .browse a.archives {
+	background-image: url("../images/archives-bg.png");
+}
+
+.features {
+	padding: 0;
+}
+.features li {
+	background: #fff;
+	margin-left: 15px;
+	width: 205px;
+}
+.features li.primary {
+	margin-left: 0;
+	width: 295px;
+}
+.features .content {
+	padding: 25px 15px;
+}
+.features .content a {
+	color: #464646;
+}
+.features .content h3 {
+	font-size: 1.9em;
+}
+.features .content p {
+	font-size: 1.3em;
+}
