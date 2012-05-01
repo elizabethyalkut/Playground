@@ -61,7 +61,8 @@ input:-moz-placeholder {
 /* Serif font stack */
 .header .secondary-nav,
 .footer .tagline,
-.masthead .subhead {
+.masthead .subhead,
+.masthead .publication-info {
 	font-family: Georgia, "Times New Roman," Times, serif;
 }
 
