@@ -1,0 +1,46 @@
+/* Letters */
+
+.letters {
+	margin-top: 40px;
+}
+
+.letters h2 {
+	background: url("../images/perspectives-border.png") 0 100% repeat-x;
+	font-family: "AvenirLTStd Medium", "Futura", "Myriad Pro";
+	font-size: 2.3em;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0;
+	padding-bottom: 20px;
+	}
+
+.letters .letter {
+	float: left;
+	width: 47.9166667%;
+}
+.letter:first-of-type {
+	padding-right: 40px;
+}
+.letter p.byline {
+	font-size: 1.4em;
+}
+.letter .title {
+	text-transform: uppercase;
+}
+.letter .name {
+	font-style: italic;
+}
+.letter h3 {
+	font-family: "AvenirLTStd Medium", "Futura", "Myriad Pro";
+	font-size: 2.4em;
+	font-weight: normal;
+	margin: 15px 0;
+}
+.letter a {
+	color: #1a3863;
+}
+.letter h3 + p {
+	font-size: 1.7em;
+	font-style: italic;
+	line-height: 25px;
+}
