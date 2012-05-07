@@ -47,7 +47,11 @@ body {
 	width: 960px;
 }
 
-/* unordered lists used for layout don't need bullets */
+/* unordered lists used for layout don't need bullets and the default padding.margin is zeroed out */
+ul {
+	margin: 0;
+	padding: 0;
+}
 ul li {
 	list-style: none;
 }
@@ -69,7 +73,10 @@ input:-moz-placeholder {
 .footer .tagline,
 .masthead .subhead,
 .masthead .publication-info,
-.in-issue .content p {
+.in-issue .content p,
+.engagement p,
+.letter h3 +p,
+.letter .name {
 	font-family: Georgia, "Times New Roman," Times, serif;
 }
 
