@@ -77,7 +77,8 @@ input:-moz-placeholder {
 .engagement p,
 .letter h3 +p,
 .letter .name,
-#tabs div ul p {
+#tabs div ul p,
+.social h2 {
 	font-family: Georgia, "Times New Roman," Times, serif;
 }
 

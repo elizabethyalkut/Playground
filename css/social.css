@@ -1,0 +1,47 @@
+/* Social Media */
+
+.social {
+	background-image: url("../images/social-bg.png");
+	padding-bottom: 14px;
+	width: 55px;
+}
+.social h2 {
+	color: #141514;
+	font-size: 1.3em;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0;
+	padding: 12px 0 7px;
+	text-align: center;
+}
+.social li {
+	padding: 4px 0;
+}
+.social a {
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: block;
+	height: 28px;
+	margin: 0 auto;
+	width: 28px;
+}
+
+.facebook {
+	background-image: url("../images/facebook.png");
+}
+
+.twitter {
+	background-image: url("../images/twitter.png");
+}
+
+.linkedin {
+	background-image: url("../images/linkedin.png");
+}
+
+.email {
+	background-image: url("../images/email.png");
+}
+
+.stumble {
+	background-image: url("../images/stumble.png");
+}
