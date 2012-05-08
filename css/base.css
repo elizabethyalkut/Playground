@@ -78,7 +78,8 @@ input:-moz-placeholder {
 .letter h3 +p,
 .letter .name,
 #tabs div ul p,
-.social h2 {
+.social h2,
+.ribbon span {
 	font-family: Georgia, "Times New Roman," Times, serif;
 }
 
