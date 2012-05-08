@@ -76,8 +76,24 @@ input:-moz-placeholder {
 .in-issue .content p,
 .engagement p,
 .letter h3 +p,
-.letter .name {
+.letter .name,
+#tabs div ul p {
 	font-family: Georgia, "Times New Roman," Times, serif;
+}
+
+/* Avenir font stack */
+.engagement h2,
+.engagement h3,
+.engagement p a,
+.in-issue h2,
+.in-issue h3,
+.letters h2,
+.letter h3,
+.online-extras h2,
+.perspectives h2,
+#tabs .tab,
+#tabs div ul a {
+	font-family: "AvenirLTStd Medium", "Futura", "Myriad Pro";
 }
 
 /* MAIN */

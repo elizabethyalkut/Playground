@@ -13,13 +13,11 @@
 }
 
 .engagement h2 {
-	font-family: "AvenirLTStd Medium", "Futura", "Myriad Pro";
 	font-size: 1.8em;
 	text-transform: uppercase;
 }
 .engagement h3 {
 	color: #e46f0c;
-	font-family: "AvenirLTStd Medium", "Futura", "Myriad Pro";
 	font-size: 2em;
 	margin: 0;
 }
@@ -32,7 +30,6 @@
 }
 .engagement p a {
 	color: #e46f0c;
-	font-family: "AvenirLTStd Medium", "Futura", "Myriad Pro";
 	font-style: normal;
 }
 .engagement form {

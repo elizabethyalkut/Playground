@@ -6,7 +6,6 @@
 
 .letters h2 {
 	background: url("../images/perspectives-border.png") 0 100% repeat-x;
-	font-family: "AvenirLTStd Medium", "Futura", "Myriad Pro";
 	font-size: 2.3em;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -31,7 +30,6 @@
 	font-style: italic;
 }
 .letter h3 {
-	font-family: "AvenirLTStd Medium", "Futura", "Myriad Pro";
 	font-size: 2.4em;
 	font-weight: normal;
 	margin: 15px 0;

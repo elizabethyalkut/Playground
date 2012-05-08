@@ -5,13 +5,11 @@
 	float: left;
 }
 .in-issue h2 {
-	font-family: "AvenirLTStd Medium", "Futura", "Myriad Pro";
 	font-size: 2.3em;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 .in-issue h3 {
-	font-family: "AvenirLTStd Medium", "Futura", "Myriad Pro";
 	font-size: 2.1em;
 	font-weight: normal;
 	line-height: 1;
