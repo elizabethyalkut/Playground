@@ -26,6 +26,7 @@
 .footer-nav {
 	background: url("../images/footer-nav-shadow.png") left top no-repeat, url("../images/footer-nav-shadow.png") right top no-repeat;
 	margin: 0 40px 0 50px;
+	padding-left: 40px;
 	width: 140px;
 }
 .footer .tagline {
