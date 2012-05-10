@@ -2,6 +2,8 @@
 
 .perspectives-container {
 	background: url("../images/perspectives-border.png") repeat;
+	float: right;
+	margin-top: 5px;
 	width: 270px;
 }
 .perspectives {
