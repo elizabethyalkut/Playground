@@ -2,8 +2,9 @@
 
 .engagement {
 	border: solid 15px #eee;
+	float: right;
 	margin-top: 35px;
-	width: 270px;
+	width: 240px;
 }
 .engagement div {	
 	padding: 21px 20px 25px;
