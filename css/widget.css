@@ -1,7 +1,8 @@
 /* Articles widget */
 
 #tabs { 
-	width: 63.5416667%;
+	float: left;
+	width: 615px;
 }
 #tabs .tablist {
 	position: relative;
@@ -31,6 +32,9 @@
 }
 #tabs .tab a {
 	color: #000;
+}
+#tabs .tab a:hover {
+	color: #00336B;
 }
 #tabs div {
 	border-top: solid 5px #c2c2c2;
