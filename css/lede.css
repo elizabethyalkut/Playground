@@ -6,6 +6,7 @@
 
 .lede {
 	position: relative;
+	margin-bottom: 45px;
 }
 .masthead {
 	padding-top: 40px;
@@ -83,15 +84,24 @@
 .features {
 	padding: 0;
 	padding-top: 35px;
+	height: auto;
 }
 .features li {
 	background: #fff;
 	margin-left: 15px;
 	position: relative;
+	overflow: hidden;
 	width: 205px;
 }
 .features li.primary {
 	margin-left: 0;
+	width: 295px;
+}
+.features .img img {
+	height: 190px;
+	width: 205px;
+}
+.features .primary .img img{
 	width: 295px;
 }
 .features .primary .img {
@@ -110,6 +120,9 @@
 	text-align: center;
 	padding-top: 7px;
 }
+.features .primary .img:before:hover {
+	display: none;
+}
 .features a {
 	color: #464646;
 }
@@ -122,7 +135,7 @@
 .features .content p {
 	font-size: 1.3em;
 }
-.features .content .read-more {
+.features .content .ir.read-more {
 	background: url("../images/read-more-bg.png")no-repeat;
 	bottom: 0;
 	height: 28px;
@@ -131,7 +144,7 @@
 	right: 0;
 	width:29px;
 }
-.features .primary .content .read-more {
+.features .primary .content .ir.read-more {
 	background-image: url("../images/read-more-primary-bg.png");
 }
 .features li:hover {
@@ -141,9 +154,10 @@
 .features li:hover .img {
 	display: none;
 }
+.features li:hover .read-more {
+	color: #fab965;
+	font-size: 1.568em;
+}
 .features li:hover a {
 	color: #fff;
-}
-.features li:hover .read-more {
-	display: none;
 }
