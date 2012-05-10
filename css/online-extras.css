@@ -1,10 +1,13 @@
 /* Online Extras */
 .online-extras {
+	float: left;
 	margin-bottom: 70px;
+	width: 930px;
 }
 
 .online-extras h2 {
 	font-size: 2.3em;
+	text-transform: uppercase;
 }
 .online-extras li {
 	border-top: solid 8px #0066a4;
