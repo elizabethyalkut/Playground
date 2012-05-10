@@ -1,7 +1,9 @@
 /* Letters */
 
 .letters {
+	float: left;
 	margin-top: 40px;
+	width: 930px;
 }
 
 .letters h2 {
