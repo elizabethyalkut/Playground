@@ -1,7 +1,7 @@
 /* IN-ISSUE */
 
 .in-issue {
-	width: 67.7083333%;
+	width: 625px;
 	float: left;
 }
 .in-issue h2 {
@@ -30,6 +30,10 @@
 .in-issue li:nth-child(odd) {
 	clear: left;
 }
+.in-issue li:nth-child(even) {
+	margin-right: 0;
+}
+
 .in-issue .img img {
 	border: solid 3px #e6eaee;
 }
