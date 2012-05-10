@@ -47,6 +47,24 @@ body {
 	width: 960px;
 }
 
+.inset {
+	background: #fff;
+	margin-right: 120px;
+	position: relative;
+	padding-top: 60px;
+	-webkit-box-shadow: 2px 2px 2px 2px #e8e8e8;
+	box-shadow: 2px 2px 2px 2px #e8e8e8;
+	-webkit-border-radius: opx opx 1px opx;
+	border-radius: opx opx 1px opx;
+	z-index: 10;
+}
+
+.inset-container {
+	float: right;
+	width: 930px;
+	padding-right: 35px;
+}
+
 /* unordered lists used for layout don't need bullets and the default padding.margin is zeroed out */
 ul {
 	margin: 0;
