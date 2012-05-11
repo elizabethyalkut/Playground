@@ -97,7 +97,8 @@ input:-moz-placeholder {
 .letter .name,
 #tabs div ul p,
 .social h2,
-.ribbon span {
+.ribbon span,
+.js #perspectives button span {
 	font-family: Georgia, "Times New Roman," Times, serif;
 }
 
