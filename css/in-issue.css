@@ -45,3 +45,6 @@
 	margin: 0;
 	padding-top: 5px;
 }
+.in-issue li:hover img {
+	border-color: #E46F0C;
+}
