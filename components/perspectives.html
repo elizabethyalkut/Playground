@@ -9,28 +9,36 @@
 <title>perspectives | HHMI</title>
 <link rel="stylesheet" href="../css/base.css" type="text/css">
 <link rel="stylesheet" href="../css/perspectives.css" type="text/css">
+<script language ="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="../scripts/global.js"></script>
 </head>
 <body>
 <div class="perspectives-container cf">
-	<div class="perspectives">
+	<div id="perspectives">
 	<h2>Perspectives</h2>
-	<ul class="carousel">
-		<li class="article">
+	<ul id="carousel">
+		<li>
 			<h3><a href="#">Changed Expectations</a></h3>
 			<p class="byline">[HHMI / <span class="author">Carolyn Bertozzi</span>]</p>
 			<p>Chemists trained in biology were once a rarity &mdash; now they're becoming the norm.</p>
 		</li>
-		<li class="article">
+		<li>
 			<h3><a href="#">Great Expectations</a></h3>
 			<p class="byline">[HHMI / <span class="author">David Castronovo</span>]</p>
 			<p>Duis dui tortor, pharetra at cursus vitae, consectetur id metus.</p>
 		</li>
-		<li class="article">
+		<li>
 			<h3><a href="#">Fallen Expectations</a></h3>
 			<p class="byline">[HHMI / <span class="author">William Patton</span>]</p>
 			<p>Chemists trained in biology were once a rarity &mdash; now they're becoming the norm.</p>
 		</li>
 	</ul>
+	<div class="controls">
+		<button id="left">&larr;</button>
+		<button id="right"><span>Next / </span>&rarr;</button>
+	</div>
+	
+
 	</div>
 </div>
 </body>
