@@ -5,39 +5,77 @@
 	float: right;
 	margin-top: 5px;
 	width: 270px;
+	overflow: hidden;
 }
-.perspectives {
+#perspectives {
 	background: #fff;
 	margin: 23px 0 26px 21px;
-	padding: 35px 25px;
+	padding: 35px 0;
 }
-.perspectives h2 {
+#perspectives h2 {
 	font-size: 1.8em;
 	text-transform: uppercase;
+	padding-left: 25px;
 }
-.perspectives .carousel {
-	margin: 0;
-	padding: 0;
-}
-.perspectives h3 {
+#perspectives h3 {
 	font-size: 1.8em;
 	font-weight: normal
 }
-.perspectives h3 a {
+#perspectives h3 a {
 	color: #e46f0c;
 }
-.perspectives p {
+#perspectives p {
 	color: #9e9e9e;
 	font-size: 1.4em;
 	font-weight: bold;
 	line-height: 18px;
 }
-.perspectives p.byline {
+#perspectives p.byline {
 	color: #000;
 	font-size: 1.3em;
 	font-weight: normal;
 	text-transform: uppercase;
 }
-.perspectives .author {
+#perspectives .author {
 	font-style: italic;
+}
+
+#perspectives #carousel {
+    overflow: hidden;
+}
+
+#carousel li {
+    float: left;
+    height: 200px;
+	padding: 0 25px;
+    width: 199px;
+}
+#carousel:first-child {
+	padding-left: 0;
+}
+
+#perspectives button {
+	display: none;
+}
+.js #perspectives .controls {
+	padding: 0 25px;
+}
+
+.js #perspectives button {
+	border: 0;
+	background-color: #fff;
+	color: #E46F0C;
+	font-size: 1.8em;
+    cursor:pointer;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.js #perspectives button span {
+	color: #fbb356;
+	font-size: .8em;
+	font-style: italic;
+}
+.js #perspectives button#right {
+	float: right;
 }
