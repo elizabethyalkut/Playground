@@ -6,7 +6,7 @@
 
 .lede {
 	position: relative;
-	margin-bottom: 45px;
+	padding-bottom: 45px;
 }
 .masthead {
 	padding-top: 40px;
@@ -119,9 +119,6 @@
 	font-size: 1.09em;
 	text-align: center;
 	padding-top: 7px;
-}
-.features .primary .img:before:hover {
-	display: none;
 }
 .features a {
 	color: #464646;
