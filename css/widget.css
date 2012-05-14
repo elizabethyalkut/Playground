@@ -2,6 +2,7 @@
 
 #tabs { 
 	float: left;
+	margin-top: 50px;
 	width: 615px;
 }
 #tabs .tablist {
@@ -25,10 +26,10 @@
 	display: block;
 }
 #tabs .tab.active:after {
-	content: url("../images/tablist-arrow.png");
-	position: absolute;
 	bottom: -19px;
+	content: url("../images/tablist-arrow.png");
 	left: 40%;
+	position: absolute;
 }
 #tabs .tab a {
 	color: #000;
@@ -37,13 +38,12 @@
 	color: #00336B;
 }
 #tabs div {
-	border-top: solid 5px #c2c2c2;
 	background: #fbfbfb;
-	margin-bottom: 20px;
-	margin-top: -5px;
-
+	border-top: solid 5px #c2c2c2;
     -webkit-box-shadow: 0px 2px 3px rgba(235, 235, 235, 1), -2px 2px 3px rgba(235, 235, 235, 1), 2px 2px 3px rgba(235, 235, 235, 1);
 	box-shadow: 0px 2px 3px rgba(235, 235, 235, 1), -2px 2px 3px rgba(235, 235, 235, 1), 2px 2px 3px rgba(235, 235, 235, 1);
+	margin-bottom: 20px;
+	margin-top: -5px;
 }
 #tabs div ul {
 	padding: 30px 45px 10px 20px;
@@ -63,6 +63,9 @@
 }
 #tabs div ul a {
 	color: #003f5f;
+}
+#tabs div ul a:hover {
+	color: #E46F0C;
 }
 #tabs div ul p {
 	font-size: 1.4em;
