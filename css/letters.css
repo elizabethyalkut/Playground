@@ -5,16 +5,14 @@
 	margin-top: 40px;
 	width: 930px;
 }
-
 .letters h2 {
 	background: url("../images/perspectives-border.png") 0 100% repeat-x;
 	font-size: 2.3em;
 	font-weight: normal;
-	text-transform: uppercase;
 	margin: 0;
 	padding-bottom: 20px;
-	}
-
+	text-transform: uppercase;
+}
 .letters .letter {
 	float: left;
 	width: 47.9166667%;
@@ -38,6 +36,9 @@
 }
 .letter a {
 	color: #1a3863;
+}
+.letter a:hover  {
+	color: #E46F0C;
 }
 .letter h3 + p {
 	font-size: 1.7em;
