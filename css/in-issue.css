@@ -1,8 +1,8 @@
 /* IN-ISSUE */
 
 .in-issue {
-	width: 625px;
 	float: left;
+	width: 625px;
 }
 .in-issue h2 {
 	font-size: 2.3em;
@@ -18,6 +18,9 @@
 .in-issue h3 a {
 	color: #00336b;
 	font-weight: normal;
+}
+.in-issue h3 a:hover  {
+	color: #E46F0C;
 }
 .in-issue ul {
 	padding-left: 0;
@@ -44,7 +47,4 @@
 	font-size: 1.4em;
 	margin: 0;
 	padding-top: 5px;
-}
-.in-issue li:hover img {
-	border-color: #E46F0C;
 }
