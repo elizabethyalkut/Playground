@@ -4,7 +4,6 @@
 	margin-bottom: 70px;
 	width: 930px;
 }
-
 .online-extras h2 {
 	font-size: 2.3em;
 	text-transform: uppercase;
@@ -12,12 +11,12 @@
 .online-extras li {
 	border-top: solid 8px #0066a4;
 	float: left;
-	width: 222px;
 	margin-left: 12px;
+	width: 222px;
 }
 .online-extras li:nth-child(4n+1) {
-	margin-left: 0;
 	clear: left;
+	margin-left: 0;
 }
 .online-extras h3 {
 	font-size: 1.8em;
@@ -25,4 +24,9 @@
 }
 .online-extras a {
 	color: #1a3863;
+}
+.online-extras li:hover,
+.online-extras a:hover  {
+	border-top-color: #E46F0C;
+	color: #E46F0C;
 }
