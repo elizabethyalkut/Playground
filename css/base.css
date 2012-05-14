@@ -35,11 +35,11 @@
 }
 /* General body styles */
 body {
-	margin: 0;
-	padding: 0;
+	background: #fff;
 	font-family: "Nimbus Sans L", "helvetica neue", arial, helvetica, sans-serif;
 	font-size: 62.5%; /* use ems: 1.4em = 14px in the comp */
-	background: #fff;
+	margin: 0;
+	padding: 0;
 }
 
 .inner {
@@ -49,20 +49,20 @@ body {
 
 .inset {
 	background: #fff;
-	margin-right: 120px;
-	position: relative;
-	padding-top: 60px;
+	-webkit-border-radius: 0px 0px 1px 0px;
+	border-radius: 0px 0px 1px 0px;
 	-webkit-box-shadow: 2px 2px 2px 2px #e8e8e8;
 	box-shadow: 2px 2px 2px 2px #e8e8e8;
-	-webkit-border-radius: opx opx 1px opx;
-	border-radius: opx opx 1px opx;
+	margin-right: 120px;
+	padding-top: 60px;
+	position: relative;
 	z-index: 10;
 }
 
 .inset-container {
 	float: right;
-	width: 930px;
 	padding-right: 35px;
+	width: 930px;
 }
 
 /* unordered lists used for layout don't need bullets and the default padding.margin is zeroed out */
@@ -87,39 +87,39 @@ input:-moz-placeholder {
     font-style: italic;
 }
 /* Serif font stack */
-.header .secondary-nav,
-.footer .tagline,
-.masthead .subhead,
-.masthead .publication-info,
-.in-issue .content p,
-.engagement p,
-.letter h3 +p,
-.letter .name,
 #tabs div ul p,
-.social h2,
+.engagement p,
+.footer .tagline,
+.header .secondary-nav,
+.in-issue .content p,
+.js #perspectives button span,
+.letter .name,
+.letter h3 +p,
+.masthead .publication-info,
+.masthead .subhead,
 .ribbon span,
-.js #perspectives button span {
+.social h2 {
 	font-family: Georgia, "Times New Roman," Times, serif;
 }
 
 /* Avenir font stack */
+#tabs .tab,
+#tabs div ul a,
 .engagement h2,
 .engagement h3,
 .engagement p a,
 .in-issue h2,
 .in-issue h3,
-.letters h2,
 .letter h3,
+.letters h2,
 .online-extras h2,
-.perspectives h2,
-#tabs .tab,
-#tabs div ul a {
+.perspectives h2 {
 	font-family: "AvenirLTStd Medium", "Futura", "Myriad Pro";
 }
 
 /* MAIN */
 
 #main {
-	background: #f6f6f6;
+	background: #f6f6f6 url("../images/lede-bg.png") repeat-x;
 	border-top: solid 1px #d0d0cf;
 }
