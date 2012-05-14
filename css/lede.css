@@ -1,12 +1,8 @@
-#main {
-	background: #f6f6f6 url("../images/lede-bg.png") repeat-x;
-}
-
 /* LEDE */
 
 .lede {
-	position: relative;
 	padding-bottom: 45px;
+	position: relative;
 }
 .masthead {
 	padding-top: 40px;
@@ -26,8 +22,8 @@
 	font-style: italic;
 }
 .masthead .publication-info {
-	font-size: 1.463em;
 	font-family: "Franklin Gothic Book";
+	font-size: 1.463em;
 }
 .masthead .volume {
 	font-family: Cambria;
@@ -49,23 +45,22 @@
 	top: 60px;
 }
 .lede .browse li {
-    -webkit-box-shadow:  2px 3px 3px 0px rgba(1, 1, 1, .05);
-    box-shadow:  2px 3px 3px 0px rgba(1, 1, 1, .05);
 	background: #fff url("../images/browse-bg.png") repeat;
+    -webkit-box-shadow: 2px 3px 3px 0px rgba(1, 1, 1, .05);
+    box-shadow: 2px 3px 3px 0px rgba(1, 1, 1, .05);
 	margin-left: 9px;
 	padding: 12px 10px;
 	padding-left: 19px;
 }
 .lede .browse a {
-	color: #333;
 	background-position: 0 50%;
 	background-repeat: no-repeat;
+	color: #333;
+	display: table-cell;
 	font-family: "Franklin Gothic Medium";
 	font-size: 1.3em;
 	line-height: .9em;
 	padding-left: 30px;
-	display: table-cell;
-	vertical-align: middle;
 	width: 45px;
 }
 .lede .browse a:hover {
@@ -80,17 +75,15 @@
 .lede .browse a.archives {
 	background-image: url("../images/archives-bg.png");
 }
-
 .features {
+	margin-top: 35px;
 	padding: 0;
-	padding-top: 35px;
-	height: auto;
 }
 .features li {
 	background: #fff;
 	margin-left: 15px;
-	position: relative;
 	overflow: hidden;
+	position: relative;
 	width: 205px;
 }
 .features li.primary {
@@ -108,17 +101,17 @@
 	position: relative;
 }
 .features .primary .img:before {
-	content:"COVER STORY";
 	background: url("../images/cover-ribbon.png") no-repeat;
-	width: 115px;
-	height: 34px;
-	position: absolute;
 	color: #fff;
-	left: -6px;
-	top: 25px;
+	content:"COVER STORY";
 	font-size: 1.09em;
-	text-align: center;
+	height: 34px;
+	left: -6px;
 	padding-top: 7px;
+	position: absolute;
+	text-align: center;
+	top: 25px;
+	width: 115px;
 }
 .features a {
 	color: #464646;
