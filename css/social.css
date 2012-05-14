@@ -3,9 +3,9 @@
 .social {
 	background-image: url("../images/social-bg.png");
 	padding-bottom: 14px;
+	/* position: absolute;
+	right: -59px; */
 	width: 55px;
-	position: absolute;
-	right: -59px;
 }
 .social h2 {
 	color: #141514;
@@ -28,27 +28,23 @@
 	width: 28px;
 }
 .social a:hover {
-	-webkit-box-shadow: 1px 1px 3px 1px #E46F0C;
-	box-shadow: 1px 1px 3px 1px #E46F0C;
 	-webkit-border-radius: 14px;
 	border-radius: 14px;
+	-webkit-box-shadow: 1px 1px 3px 1px #E46F0C;
+	box-shadow: 1px 1px 3px 1px #E46F0C;
 }
 .facebook {
 	background-image: url("../images/facebook.png");
 }
-
 .twitter {
 	background-image: url("../images/twitter.png");
 }
-
 .linkedin {
 	background-image: url("../images/linkedin.png");
 }
-
 .email {
 	background-image: url("../images/email.png");
 }
-
 .stumble {
 	background-image: url("../images/stumble.png");
 }

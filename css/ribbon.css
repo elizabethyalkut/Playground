@@ -1,33 +1,32 @@
 /* Download ribbon */
 .ribbon {
-	position: absolute;
-	top: 0;
+	/* positioning for when the components are all together */
+/*	position: absolute;
 	right: -20px;
+	top: 0; */
 }
-
 .ribbon a {
-	position:relative;
-	color:#fff;
 	background:#e46f0c url("../images/download.png") 7px no-repeat;
-	font-size:1.5em;
-	float:left;
 	clear:both;
-	padding: 8px 15px 8px 40px;
-	margin: 0 10px 10px 0;
+	color:#fff;
+	float:left;
+	font-size:1.5em;
 	font-weight: 200;
+	margin: 0 10px 10px 0;
+	padding: 8px 15px 8px 40px;
+	position:relative;
 }
 .ribbon a span {
 	font-style: italic;
 }
-
 .ribbon a:before {
-	content:" ";
-	position:absolute;
-	bottom:-10px;
-	right:0px;
 	border: 5px solid #fbb356;
 	border-bottom: 5px solid transparent;
 	border-right: 5px solid transparent;	
+	bottom:-10px;
+	content:" ";
+	position:absolute;
+	right:0px;
 }
 .ribbon a:hover {
 	text-decoration: underline;
