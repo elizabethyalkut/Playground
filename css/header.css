@@ -75,10 +75,10 @@
     border-radius: 5px;
 }
 .header #search input[type="search"] {
-	border: 0;
 	-webkit-appearance: none;
-	width: 170px;
+	border: 0;
 	padding: 5px 35px 5px 0;
+	width: 170px;
 }
 .header #search form {
 	position: relative;
