@@ -12,7 +12,6 @@
 .engagement div + div {
 	border-top: solid 4px #eee;
 }
-
 .engagement h2 {
 	font-size: 1.8em;
 	text-transform: uppercase;
@@ -45,7 +44,6 @@
 	padding: 6px 0;
 	width: 150px;
 }
-
 .engagement button {
 	background: #fff;
 	border: none;
