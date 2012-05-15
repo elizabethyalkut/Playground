@@ -15,12 +15,6 @@
     zoom:1;
 }
 
-/* Media object from Nicole Sullivan, http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
-.media, .content {overflow:hidden; _overflow:visible; zoom:1;}
-.media .img {float:left; margin-right: 10px;}
-.media .img img{display:block;}
-.media .imgExt{float:right; margin-left: 10px;}
-
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
@@ -88,13 +82,13 @@ input:-moz-placeholder {
 }
 /* Serif font stack */
 #tabs div ul p,
-.engagement p,
+.engagement p.serif,
 .footer .tagline,
 .header .secondary-nav,
 .in-issue .content p,
 .js #perspectives button span,
 .letter .name,
-.letter h3 +p,
+.letter h3 + p,
 .masthead .publication-info,
 .masthead .subhead,
 .ribbon span,
@@ -106,8 +100,6 @@ input:-moz-placeholder {
 #tabs .tab,
 #tabs div ul a,
 .engagement h2,
-.engagement h3,
-.engagement p a,
 .in-issue h2,
 .in-issue h3,
 .letter h3,

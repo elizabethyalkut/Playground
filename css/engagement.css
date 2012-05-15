@@ -2,7 +2,7 @@
 
 .engagement {
 	border: solid 15px #eee;
-	float: right;
+	/* float: right; */
 	margin-top: 35px;
 	width: 240px;
 }
@@ -21,7 +21,7 @@
 	font-size: 2em;
 	margin: 0;
 }
-.engagement p {
+.engagement .serif {
 	color: #323232;
 	font-size: 1.4em;
 	font-style: italic;
@@ -29,8 +29,9 @@
 	margin-top: 9px;
 }
 .engagement p a {
+	font-size: 1.4em;
 	color: #e46f0c;
-	font-style: normal;
+	font-weight: bold;
 }
 .engagement form {
 	border: solid 1px #dadada;
@@ -41,7 +42,7 @@
 .engagement input {
 	border: none;
 	margin: 0;
-	padding: 6px 0;
+	padding: 6px 0 6px 5px;
 	width: 150px;
 }
 .engagement button {
