@@ -23,7 +23,7 @@
 }
 .masthead .publication-info {
 	font-family: "Franklin Gothic Book";
-	font-size: 1.463em;
+	font-size: 1.4em;
 }
 .masthead .volume {
 	font-family: Cambria;
@@ -38,29 +38,29 @@
 	float: left;
 }
 .lede .browse {
-	margin: 0;
-	padding-left: 0;
 	position: absolute;
 	right: 0;
 	top: 60px;
+	width: 355px;
 }
 .lede .browse li {
 	background: #fff url("../images/browse-bg.png") repeat;
     -webkit-box-shadow: 2px 3px 3px 0px rgba(1, 1, 1, .05);
     box-shadow: 2px 3px 3px 0px rgba(1, 1, 1, .05);
 	margin-left: 9px;
-	padding: 12px 10px;
-	padding-left: 19px;
+	max-width: 118px;
+	padding: 12px 10px 12px 19px;
+}
+.lede .browse li:first-child {
+	margin-left: 0;
 }
 .lede .browse a {
 	background-position: 0 50%;
 	background-repeat: no-repeat;
 	color: #333;
-	display: table-cell;
 	font-family: "Franklin Gothic Medium";
 	font-size: 1.3em;
-	line-height: .9em;
-	padding-left: 30px;
+	padding: 4px 0 4px 30px;
 	width: 45px;
 }
 .lede .browse a:hover {
@@ -99,6 +99,7 @@
 }
 .features .primary .img {
 	position: relative;
+	padding-bottom: 25px;
 }
 .features .primary .img:before {
 	background: url("../images/cover-ribbon.png") no-repeat;
@@ -117,7 +118,7 @@
 	color: #464646;
 }
 .features .content {
-	padding: 25px 15px;
+	padding: 0 15px 25px;
 }
 .features .content h3 {
 	font-size: 1.9em;
@@ -144,9 +145,21 @@
 .features li:hover .img {
 	display: none;
 }
-.features li:hover .read-more {
+.features li:hover .content h3 {
+	font-family: "Franklin Gothic Medium", "Franklin Gothic Book";
+	font-size: 2.7em;
+	font-weight: normal;
+}
+.features li:hover .content .read-more {
 	color: #fab965;
-	font-size: 1.568em;
+	font-size: 1.5em;
+}
+.features li:hover .content .ir.read-more {
+	background-image: none;
+	font-family: "Nimbus Sans L", "helvetica neue", arial, helvetica, sans-serif;
+	position: relative;
+	width: auto;
+	padding-top: 15px;
 }
 .features li:hover a {
 	color: #fff;
