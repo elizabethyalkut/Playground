@@ -9,6 +9,20 @@
 	font-weight: bold;
 	text-transform: uppercase;
 }
+/* Media object from Nicole Sullivan, http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
+.media,
+.content {
+	overflow:hidden; 
+	_overflow:visible;
+	zoom:1;
+}
+.media .img {
+	float:left;
+	margin-right: 14px;
+}
+.media .img img{
+	display:block;
+}
 .in-issue h3 {
 	font-size: 2.1em;
 	font-weight: normal;
@@ -17,13 +31,9 @@
 }
 .in-issue h3 a {
 	color: #00336b;
-	font-weight: normal;
 }
 .in-issue h3 a:hover  {
 	color: #E46F0C;
-}
-.in-issue ul {
-	padding-left: 0;
 }
 .in-issue li {
 	float: left;
