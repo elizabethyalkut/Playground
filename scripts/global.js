@@ -1,7 +1,6 @@
 // JSLint options:
 /*global jQuery, $, init */
 /*jslint browser: true, white: true, nomen: false, vars: false, plusplus: false */
-
 // Adds js class to html when javascript runs
 document.documentElement.className = "js";
 
@@ -26,48 +25,54 @@ HHMI.equalHeight = {
 };
 
 HHMI.slider = {
-	init: function () {
-		var $slides = $("#carousel li"),
-		    slidesCount = $slides.length,
-		    slideWidth = $slides.outerWidth();
-		    containerWidth = slideWidth * slidesCount,
-			displayNumber = 1;
-		    slideIndex = 0;
-  
-		$("#carousel").css({
-		    'width': containerWidth + "px"
-		});
-		
-		$('button').css('display','block');
+    init: function () {
+        var $slides = $(".carousel li"),
+            slidesCount = $slides.length,
+            slideWidth = $slides.outerWidth();
+        containerWidth = slideWidth * slidesCount;
+		perspectivesDisplayNumber = 1;
+        extrasDisplayNumber = 4;
+        slideIndex = 0;
 
-		$('button').click(function(){
-		    var $carousel = $("#carousel");
-		    if( $carousel.not(':animated').length ) {
+        $(".carousel").css({
+            'width': containerWidth + "px"
+        });
 
-		        if ($(this).attr('id') == 'left' && slideIndex > 0){
-		            slideIndex -=1;
-		        } else if ($(this).attr('id') == 'right' && (slideIndex < (slidesCount - displayNumber)) ){ 
-		            slideIndex +=1;  
-		        };
-        
-		        var offset = -slideWidth * slideIndex;
-		        $carousel.animate({
-		            "margin-left": offset + "px"
-		        }, 500);
-		    }
-		});
+        $('button').click(function () {
+            var $carousel = $(".carousel");
+            if ($carousel.not(':animated').length) {
 
-	}
+                if ($('.carousel').parents('#perspectives') {
+
+                    if ($(this).attr('class') == 'left' && slideIndex > 0) {
+                        slideIndex -= 1;
+                    } else if ($(this).attr('class') == 'right' && (slideIndex < (slidesCount - perspectivesDisplayNumber))) {
+                        slideIndex += 1;
+                    };
+
+                } else if ($('.carousel').parents('.online-extras') {
+					if ($(this).attr('class') == 'left' && slideIndex > 0) {
+						slideIndex -= 1;
+					} else if ($(this).attr('class') == 'right' && (slideIndex < (slidesCount - perspectivesDisplayNumber))) {
+						slideIndex += 1;
+					};
+
+                var offset = -slideWidth * slideIndex;
+                $carousel.animate({
+                    "margin-left": offset + "px"
+                }, 500);
+            });
+	);
 };
 
 HHMI.authorCall = {
-	init: function () {
-		
-	}
+    init: function () {
+
+    }
 };
 
 $(document).ready(function () {
     HHMI.equalHeight.init();
     HHMI.slider.init();
-	HHMI.authorCall;
+    HHMI.authorCall;
 });
