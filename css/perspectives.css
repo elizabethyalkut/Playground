@@ -46,27 +46,29 @@
 #perspectives .author {
 	font-style: italic;
 }
-#perspectives #carousel {
+#perspectives .carousel {
     overflow: hidden;
 }
-#carousel li {
+.carousel li {
     float: left;
 	padding: 0 25px;
     width: 199px;
 }
-#carousel:first-child {
+.carousel:first-child {
 	padding-left: 0;
 }
 #perspectives button {
 	display: none;
 }
 .js #perspectives .controls {
-	padding: 0 25px;
+	padding: 25px;
+	padding-bottom: 0;
 }
 .js #perspectives button {
 	border: 0;
 	background-color: #fff;
 	color: #E46F0C;
+	display: block;
 	font-size: 1.8em;
     cursor:pointer;
 	float: left;
@@ -75,9 +77,10 @@
 }
 .js #perspectives button span {
 	color: #fbb356;
+	font-family: "Nimbus Sans L", "helvetica neue", arial, helvetica, sans-serif;
 	font-size: .8em;
 	font-style: italic;
 }
-.js #perspectives button#right {
+.js #perspectives button.right {
 	float: right;
 }
