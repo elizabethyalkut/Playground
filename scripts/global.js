@@ -25,16 +25,6 @@ HHMI.equalHeight = {
     }
 };
 
-// Toggle the "ir" class on the read more element on hover. */
-HHMI.readMore = {
-    init: function () {
-        $(".features li").hover(
-			function(){ $(".read-more").removeClass('ir'); },
-			function(){ $(".read-more").addClass('ir'); }
-		);
-	}
-};
-
 HHMI.slider = {
 	init: function () {
 		var $slides = $("#carousel li"),
@@ -78,7 +68,6 @@ HHMI.authorCall = {
 
 $(document).ready(function () {
     HHMI.equalHeight.init();
-	HHMI.readMore.init();
     HHMI.slider.init();
 	HHMI.authorCall;
 });
