@@ -15,10 +15,11 @@
 }
 .letters .letter {
 	float: left;
-	width: 47.9166667%;
-}
-.letter:first-of-type {
+	width: 47.8494624%; /* 445/930=.478494624 */
 	padding-right: 40px;
+}
+.letters .letter + .letter {
+	padding-right: 0;
 }
 .letter p.byline {
 	font-size: 1.4em;
