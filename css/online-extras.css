@@ -2,6 +2,7 @@
 .online-extras {
 	float: left;
 	margin-bottom: 70px;
+	position: relative;
 	width: 930px;
 }
 .online-extras h2 {
@@ -30,4 +31,35 @@
 .online-extras a:hover  {
 	border-top-color: #E46F0C;
 	color: #E46F0C;
+}
+.js .online-extras li:nth-child(4n+1) {
+	clear: none;
+	margin-left: 12px;
+}
+.js .online-extras li:first-child {
+	margin-left: 0;
+}
+.online-extras .controls {
+	display: none;
+}
+.js .online-extras .controls {
+	display: block;
+	position: absolute;
+	top: 35px;
+	right: 0;
+	width: 100px;
+}
+.js .online-extras button {
+	border: 0;
+	background-color: #fff;
+	color: #1A3863;
+	font-size: 1.4em;
+    cursor:pointer;
+	float: left;
+	font-style: italic;
+	margin: 0;
+	padding: 0;
+}
+.js .online-extras button.right {
+	float: right;
 }
