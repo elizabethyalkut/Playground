@@ -26,53 +26,60 @@ HHMI.equalHeight = {
 
 HHMI.slider = {
     init: function () {
-        var $slides = $(".carousel li"),
-            slidesCount = $slides.length,
-            slideWidth = $slides.outerWidth();
-        containerWidth = slideWidth * slidesCount;
-		perspectivesDisplayNumber = 1;
-        extrasDisplayNumber = 4;
+        var $perspectivesSlides = $("#perspectives .carousel li"),
+            perspectivesSlidesCount = $perspectivesSlides.length;
+        perspectivesSlideWidth = $perspectivesSlides.outerWidth();
+        perspectivesContainerWidth = perspectivesSlideWidth * perspectivesSlidesCount;
+        displayNumber = 1;
         slideIndex = 0;
 
-        $(".carousel").css({
-            'width': containerWidth + "px"
+        $("#perspectives .carousel").css({
+            'width': perspectivesContainerWidth + "px"
         });
 
-        $('button').click(function () {
-            var $carousel = $(".carousel");
-            if ($carousel.not(':animated').length) {
+        $('#perspectives button').click(function () {
+            var $perspectivesCarousel = $("#perspectives .carousel");
+            if ($perspectivesCarousel.not(':animated').length) {
 
-                if ($('.carousel').parents('#perspectives') {
+                if ($(this).hasClass('left') && slideIndex > 0) {
+                    slideIndex -= 1;
+                } else if ($(this).hasClass('right') && (slideIndex < (perspectivesSlidesCount - displayNumber))) {
+                    slideIndex += 1;
+                }
 
-                    if ($(this).attr('class') == 'left' && slideIndex > 0) {
-                        slideIndex -= 1;
-                    } else if ($(this).attr('class') == 'right' && (slideIndex < (slidesCount - perspectivesDisplayNumber))) {
-                        slideIndex += 1;
-                    };
-
-                } else if ($('.carousel').parents('.online-extras') {
-					if ($(this).attr('class') == 'left' && slideIndex > 0) {
-						slideIndex -= 1;
-					} else if ($(this).attr('class') == 'right' && (slideIndex < (slidesCount - perspectivesDisplayNumber))) {
-						slideIndex += 1;
-					};
-
-                var offset = -slideWidth * slideIndex;
-                $carousel.animate({
+                var offset = -perspectivesSlideWidth * slideIndex;
+                $perspectivesCarousel.animate({
                     "margin-left": offset + "px"
                 }, 500);
-            });
-	);
+            }
+        });
+    }
 };
 
-HHMI.authorCall = {
+HHMI.carousel = {
     init: function () {
-
-    }
+        console.log("running");
+        $(".online-extras .carousel").wrap('<div class="wrapper"></div>');
+        var $slides = $(".online-extras .carousel li"),
+            slidesCount = $slides.length,
+            slidesWidth = 236,
+            containerWidth = slidesWidth * slidesCount;
+        $(".online-extras .carousel").css({
+            "width": containerWidth
+        });
+        $(".online-extras button").click(function () {
+            if ($(this).hasClass("left").closest(".online-extras .carousel").animate({
+                "left": "-944px"
+            }, 500));
+			else ($(this).hasClass("right").closest(".online-extras .carousel").animate({
+                    "left": "-0px"
+                }, 500));
+            });
+        }
 };
 
 $(document).ready(function () {
     HHMI.equalHeight.init();
     HHMI.slider.init();
-    HHMI.authorCall;
+    HHMI.carousel.init();
 });
