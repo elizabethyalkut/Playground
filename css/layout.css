@@ -1,0 +1,10 @@
+/* Layout */
+
+.left-column {
+	float: left;
+	width: 625px;
+}
+.right-column {
+	float: right;
+	width: 270px;
+}
