@@ -1,10 +1,8 @@
 /* Engagement boxes */
 
 .engagement {
-	border: solid 15px #eee;
-	/* float: right; */
+	border: solid 17px #eee;
 	margin-top: 35px;
-	width: 240px;
 }
 .engagement div {	
 	padding: 21px 20px 25px;
@@ -21,7 +19,7 @@
 	font-size: 2em;
 	margin: 0;
 }
-.engagement .serif {
+.engagement p {
 	color: #323232;
 	font-size: 1.4em;
 	font-style: italic;
@@ -29,8 +27,8 @@
 	margin-top: 9px;
 }
 .engagement p a {
-	font-size: 1.4em;
 	color: #e46f0c;
+	font-style: normal;
 	font-weight: bold;
 }
 .engagement form {
@@ -44,7 +42,7 @@
 	border: none;
 	margin: 0;
 	padding: 6px 0 6px 5px;
-	width: 150px;
+	width: 145px;
 }
 .engagement button {
 	background: #fff;
@@ -55,7 +53,7 @@
 	font-size: 1.3em;
 	font-weight: bold;
 	margin: 0;
-	padding: 4px 5px 5px 5px;
+	padding: 4px 5px 5px;
 	text-transform: uppercase;
 }
 .engagement button:hover {
@@ -63,5 +61,5 @@
 	color: #fff;
 }
 .engagement .signup {
-	background: url("../images/signup-bg.png") no-repeat 90% 5%;
+	background: url("../images/signup-bg.png") no-repeat 90% 7%;
 }
