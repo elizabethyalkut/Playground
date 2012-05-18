@@ -2,10 +2,8 @@
 
 .perspectives-container {
 	background: url("../images/perspectives-border.png") repeat;
-	/* float: right; */
-	margin-top: 5px;
 	overflow: hidden;
-	width: 270px;
+	width: 270px; /* remove when the layout is done */
 }
 #perspectives {
 	background: #fff;
@@ -49,12 +47,12 @@
 #perspectives .carousel {
     overflow: hidden;
 }
-.carousel li {
+#perspectives .carousel li {
     float: left;
 	padding: 0 25px;
     width: 199px;
 }
-.carousel:first-child {
+#perspectives .carousel:first-child {
 	padding-left: 0;
 }
 #perspectives button {
