@@ -1,9 +1,9 @@
 /* Download ribbon */
 .ribbon {
 	/* positioning for when the components are all together */
-/*	position: absolute;
+	position: absolute;
 	right: -20px;
-	top: 0; */
+	top: 0;
 }
 .ribbon a {
 	background:#e46f0c url("../images/download.png") 7px no-repeat;

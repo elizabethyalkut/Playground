@@ -3,8 +3,9 @@
 .social {
 	background-image: url("../images/social-bg.png");
 	padding-bottom: 14px;
-	/* position: absolute;
-	right: -59px; */
+	position: absolute;
+	right: -59px;
+	top: 90px;
 	width: 55px;
 }
 .social h2 {
