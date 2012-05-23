@@ -101,6 +101,13 @@
 	padding-right: 15px;
 	padding-top: 5px;
 }
+.header .secondary-nav ul {
+	padding-top: 12px;
+}
 .header .secondary a {
 	color: #313132;
+}
+.header a:focus,
+.header a:hover {
+	color: #093;
 }
