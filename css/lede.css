@@ -141,6 +141,7 @@
 }
 .features li:hover {
 	background: url("../images/features-hover.png") repeat;
+	cursor: pointer;
 	height: inherit;
 }
 .features li:hover .img {
