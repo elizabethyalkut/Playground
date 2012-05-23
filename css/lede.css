@@ -48,7 +48,7 @@
     -webkit-box-shadow: 2px 3px 3px 0px rgba(1, 1, 1, .05);
     box-shadow: 2px 3px 3px 0px rgba(1, 1, 1, .05);
 	margin-left: 9px;
-	max-width: 118px;
+	max-width: 83px;
 	padding: 12px 10px 12px 19px;
 }
 .lede .browse li:first-child {
@@ -58,9 +58,10 @@
 	background-position: 0 50%;
 	background-repeat: no-repeat;
 	color: #333;
+	float: right;
 	font-family: "Franklin Gothic Medium";
 	font-size: 1.3em;
-	padding: 4px 0 4px 30px;
+	padding:0 8px 0 30px;
 	width: 45px;
 }
 .lede .browse a:hover {
