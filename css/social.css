@@ -3,9 +3,9 @@
 .social {
 	background-image: url("../images/social-bg.png");
 	padding-bottom: 14px;
-	position: absolute;
+	/* position: absolute;
 	right: -59px;
-	top: 90px;
+	top: 90px; */ /* ATTENTION  commented out while components are isolated */
 	width: 55px;
 }
 .social h2 {
@@ -28,6 +28,7 @@
 	margin: 0 auto;
 	width: 28px;
 }
+.social a:focus,
 .social a:hover {
 	-webkit-border-radius: 14px;
 	border-radius: 14px;
