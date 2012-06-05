@@ -14,7 +14,7 @@
 }
 .letters .letter {
 	float: left;
-	width: 47.8494624%; /* 445/930=.478494624 */
+	width: 47.8494624%; /* 445/930=.478494624 */ /* (930-40)/2 = 445 */
 	padding-right: 40px;
 }
 .letters .letter + .letter {
@@ -37,6 +37,7 @@
 .letter a {
 	color: #1a3863;
 }
+.letter a:focus,
 .letter a:hover  {
 	color: #E46F0C;
 }
