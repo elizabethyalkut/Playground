@@ -2,16 +2,15 @@
 
 .perspectives-container {
 	background: url("../images/perspectives-border.png") repeat;
-	overflow: hidden;
-	width: 270px; /* remove when the layout is done */
+	width: 270px; /* ATTENTION remove when the layout is done, included while components are isolated */
 }
 #perspectives {
 	background: #fff;
-	margin: 23px 0 26px 21px;
+	margin: 22px 0 27px 19px;
 	padding: 30px 0 35px;
 }
 #perspectives h2 {
-	font-size: 1.8em;
+	font-size: 1.8em; /* 18px */
 	margin: 0;
 	padding-left: 25px;
 	text-transform: uppercase;
@@ -19,24 +18,25 @@
 #perspectives h3 {
 	font-size: 1.8em;
 	font-weight: normal;
-	margin: 15px 0 0;
+	margin: 0 0 7px;
 }
 #perspectives h3 a {
 	color: #e46f0c;
 }
+#perspectives h3 a:focus,
 #perspectives h3 a:hover {
 	border-bottom: solid 1px #e46f0c;
 }
 #perspectives p {
 	color: #9e9e9e;
-	font-size: 1.4em;
+	font-size: 1.4em; /* 14px */
 	font-weight: bold;
 	line-height: 18px;
-	margin: 0;
+	margin: 5px 0 0;
 }
 #perspectives p.byline {
 	color: #000;
-	font-size: 1.3em;
+	font-size: 1.3em; /* 13px */
 	font-weight: normal;
 	margin: 7px 0 5px;
 	text-transform: uppercase;
@@ -44,38 +44,39 @@
 #perspectives .author {
 	font-style: italic;
 }
-#perspectives .carousel {
-    overflow: hidden;
-}
 #perspectives .carousel li {
     float: left;
+	margin: 15px 0;
 	padding: 0 25px;
-    width: 199px;
+    width: 200px;
 }
-#perspectives .carousel:first-child {
-	padding-left: 0;
+#perspectives .carousel li:last-child {
+	margin-bottom: 0;
 }
 #perspectives button {
 	display: none;
 }
+.js .perspectives-container,
+.js #perspectives .carousel {
+	overflow: hidden;
+}
 .js #perspectives .controls {
-	padding: 25px;
-	padding-bottom: 0;
+	padding: 25px 25px 0;
 }
 .js #perspectives button {
-	border: 0;
 	background-color: #fff;
+	border: 0;
 	color: #E46F0C;
+    cursor: pointer;
 	display: block;
-	font-size: 1.8em;
-    cursor:pointer;
 	float: left;
+	font-size: 1.8em;
 	margin: 0;
 	padding: 0;
+	width: 50%;
 }
 .js #perspectives button span {
 	color: #fbb356;
-	font-family: "Nimbus Sans L", "helvetica neue", arial, helvetica, sans-serif;
 	font-size: .8em;
 	font-style: italic;
 }
