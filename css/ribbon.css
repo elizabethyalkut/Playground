@@ -1,18 +1,17 @@
 /* Download ribbon */
 .ribbon {
 	/* positioning for when the components are all together */
-	position: absolute;
+	/* position: absolute;
 	right: -20px;
-	top: 0;
+	top: 0;*/
+	margin: 10px; /* temporary while in isolation */
+	min-height: 34px;
 }
 .ribbon a {
 	background:#e46f0c url("../images/download.png") 7px no-repeat;
-	clear:both;
 	color:#fff;
-	float:left;
 	font-size:1.5em;
 	font-weight: 200;
-	margin: 0 10px 10px 0;
 	padding: 8px 15px 8px 40px;
 	position:relative;
 }
@@ -28,6 +27,7 @@
 	position:absolute;
 	right:0px;
 }
+.ribbon a:focus,
 .ribbon a:hover {
 	text-decoration: underline;
 }
