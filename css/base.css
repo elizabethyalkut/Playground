@@ -80,6 +80,10 @@ input::-webkit-input-placeholder {
 input:-moz-placeholder {
     font-style: italic;
 }
+/* removes the dotted underline on abbr in Firefox */
+abbr {
+	border-bottom-style: none;
+}
 /* Serif font stack */
 #tabs div ul p,
 .engagement p.serif,
