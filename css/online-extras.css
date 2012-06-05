@@ -15,10 +15,9 @@
 	margin-right: 14px;
 	width: 222px;
 }
-/* .online-extras li:nth-child(4n+1) {
-	clear: left;
-	margin-left: 0;
-	} */
+.online-extras li:nth-child(4n) {
+	margin-right: 0; /* if the javascript in the carousel isn't active, the items wrap below; margin on every fourth element would make it too wide for the container */
+}
 .online-extras h3 {
 	font-size: 1.8em;
 	font-weight: normal;
@@ -27,17 +26,11 @@
 .online-extras a {
 	color: #1a3863;
 }
+.online-extras a:focus,
 .online-extras li:hover,
 .online-extras a:hover  {
 	border-top-color: #E46F0C;
 	color: #E46F0C;
-}
-.js .online-extras .wrapper {
-	overflow: hidden;
-}
-.js .online-extras .carousel {
-	position: relative;
-	left: 0;
 }
 .online-extras .controls {
 	display: none;
@@ -48,6 +41,13 @@
 	top: 35px;
 	right: 0;
 	width: 150px;
+}
+.js .online-extras .wrapper {
+	overflow: hidden;
+}
+.js .online-extras .carousel {
+	position: relative;
+	left: 0;
 }
 .js .online-extras button {
 	border: 0;
@@ -66,4 +66,7 @@
 }
 .js .online-extras button.right {
 	float: right;
+}
+.js .online-extras li:nth-child(4n) {
+	margin-right: 14px;
 }
